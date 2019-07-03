@@ -1,0 +1,45 @@
+<form>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        登陆
+      </mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <mat-form-field color="accent" floatLabel="never" class="full-width">
+        <!-- <span matPrefix>jiaxiaole</span> -->
+        <input matInput type="text" placeholder="您的email">
+        <!-- <span matSuffix>@gmail.com</span> -->
+        <!-- <mat-hint>对方对方的</mat-hint> -->
+      </mat-form-field>
+
+      <mat-form-field color="accent" floatLabel="never" class="full-width">
+        <input matInput type="password" placeholder="您的密码">
+      </mat-form-field>
+      <button type="button" color="primary"  mat-raised-button>登陆</button>
+
+      <!-- <mat-input-container>
+    </mat-input-container> -->
+    </mat-card-content>
+    <mat-card-actions class="text-right">
+      <p>还没有账户？<a routerLink = "/register">注册</a></p>
+      <p>还没有登陆？<a href="">登陆</a></p>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        每日佳句
+      </mat-card-title>
+      <mat-card-subtitle>
+          直到添加路由后，准备运行（视频14分钟左右），无法重现，无法显示router-outlet的内容，仅仅有login component 的内容。
+      </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="/assets/quote_fallback.jpg" alt="">
+    <mat-card-content>
+        ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'login'
+        Error: Cannot match any routes. URL Segment: 'login'
+    </mat-card-content>
+  </mat-card>
+</form>
